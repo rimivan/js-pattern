@@ -1,4 +1,16 @@
 class Car{
+  constructor(license, model){
+    this.license = license;
+    this.model = model;
+  }
+
+  getLicense(){
+    return this.license;
+  }
+
+  getModel(){
+    return this.model;
+  }
   getBrand(){
     console.log("BMW");
   }
@@ -16,6 +28,7 @@ class CityCar extends Car{
 
 /* main */
 
-const c1 = new CityCar();
+const c1 = new CityCar("7yY7h", "C5");
   c1.getDescription();
   c1.getBrand();
+  console.log("Qui license "+c1.getLicense());
