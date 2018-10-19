@@ -1,4 +1,8 @@
 class Car{
+  getBrand(){
+    console.log("BMW");
+  }
+
   getDescription(){
     console.log("General car");
   }
@@ -12,5 +16,6 @@ class CityCar extends Car{
 
 /* main */
 
-Car c1 = new CityCar();
+const c1 = new CityCar();
   c1.getDescription();
+  c1.getBrand();
