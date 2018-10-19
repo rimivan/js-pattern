@@ -1,1 +1,1 @@
-console.log("Log Init bis");
+console.log("Log from vscode");
